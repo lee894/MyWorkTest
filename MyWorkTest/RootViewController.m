@@ -84,6 +84,11 @@ void centerText (CGContextRef context, NSString *fonrname, float textsize, NSStr
 
 }
 
+-(void)creatView{
+    NSLog(@"asdasd");
+
+}
+
 -(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker{
     [self dismissModalViewControllerAnimated:YES];
 }
